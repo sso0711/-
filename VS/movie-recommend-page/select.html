@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>영화 추천 페이지</title>
+  </head>
+  <body>
+    <h3>사용자 정보를 입력해주세요.</h3>
+    <hr />
+    <form name="info" method="get" action="">
+      <p>
+        <label for="text-rating">최소 평점 : </label>
+        <input type="text" id="text-rating" />
+      </p>
+
+      <p>
+        <label for="country-select">국가 :</label>
+        <select name="country" id="country-select">
+          <option value="select">--선택해주세요--</option>
+          <option value="dog">한국</option>
+          <option value="cat">미국</option>
+          <option value="hamster">영국</option>
+          <option value="parrot">일본</option>
+          <option value="spider">중국</option>
+        </select>
+      </p>
+
+      <p>
+        선호하는 장르(중복선택 가능) : <br />
+        <label><input type="checkbox" name="action" value="blue" /> 액션</label>
+        <label><input type="checkbox" name="melo" value="blue" />멜로</label>
+        <label
+          ><input type="checkbox" name="comedy" value="blue" />코미디</label
+        >
+        <label><input type="checkbox" name="horror" value="blue" />공포</label>
+        <label
+          ><input type="checkbox" name="thriller" value="blue" />스릴러</label
+        >
+        <label
+          ><input type="checkbox" name="sf" value="blue" />공상과학(SF)</label
+        >
+        <label
+          ><input type="checkbox" name="adventure" value="blue" />모험</label
+        >
+      </p>
+
+      <input type="submit" value="제출" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px; 
+    padding: 0px;
+    color: #000;
+}
+
+
+.main_background{
+    background-image: url("gray.png");
+    width: 1580px;
+    height: 260%;
+    position: absolute;
+
+}
+.header{
+    display: flex;
+    width: 1280px;
+    margin: auto;
+    height: 86px;
+}
+
+.searchbar{
+    width: 300px;
+    height: 40px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    margin-top: 24px;
+}
+
+.searchbar > form > input{
+    border: none;
+    width: 240px;
+    height: 40px;
+    background:rgba(0,0,0,0);
+    color:white;
+    padding-left: 10px;
+
+}
+
+.searchbar > form > span{
+    width: 50px;
+    color: white;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+    line-height: 86px;
+    width: calc(1280px - 300px);
+
+
+}
+
+.navigation > li {
+    margin-left: 84px;
+}
+
+.navigation > li > a{
+    color: white;
+}
